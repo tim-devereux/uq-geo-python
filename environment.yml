@@ -1,0 +1,22 @@
+name: uq-geo
+
+channels:
+  - conda-forge
+  - defaults
+  
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - rasterstats
+  - earthpy
+  - geopandas
+  - rasterio
+  - jupyterlab
+  - pandas
+  
+- pip:
+  - contextily
+  - osmnx
