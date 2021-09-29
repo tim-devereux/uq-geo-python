@@ -16,7 +16,6 @@ dependencies:
   - rasterio
   - jupyterlab
   - pandas
-  
-- pip:
-  - contextily
-  - osmnx
+  - pip:
+    - contextily
+    - osmnx
